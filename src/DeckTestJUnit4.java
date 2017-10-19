@@ -12,10 +12,6 @@ public class DeckTestJUnit4 {
         emptyDeck = new Deck(7);
     }
 
-    @After
-    public void tearDown() {
-    }
-
     @Test(timeout = 100)
     public void shuffleDeck() throws Exception {
         Deck deckBeforeShuffle = deck52;

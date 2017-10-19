@@ -8,6 +8,10 @@ class Deck {
 
     ArrayList<Card> cards;
 
+    void conflictMethod() {
+        
+    }
+
 
     Deck(int numOfCards) {
         cards = new ArrayList<>();
