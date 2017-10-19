@@ -9,7 +9,7 @@ class Deck {
     ArrayList<Card> cards;
 
     void conflictMethod() {
-        
+
     }
 
 
